@@ -4,13 +4,14 @@
 function friend(friends) {
     const result = []; 
     for (let name of friends) { 
-      if (name.length === 4) { 
+      if (name.length === 4){
+        result.push(name) 
       }
     }
     return result; 
   }
 
-
+console.log (friend(["Ryan", "Kieran", "Jason", "Yous"]))
 
 
 // KATA 2
