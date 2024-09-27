@@ -33,7 +33,7 @@ function capitalize(s) {
   
     return [evenIndexed, oddIndexed]; 
   }
-  
+  console.log(capitalize("abcdef"))
 
 //KATA 3
 function calculate(string) {
